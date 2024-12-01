@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .good {
+    @apply text-yellow-500;
+  }
+  .very-good {
+    @apply text-orange-500;
+  }
+  .strong {
+    @apply text-green-500;
+  }
+  .excellent {
+    @apply text-emerald-500;
+  }
+}
